@@ -1,8 +1,8 @@
-body{
+body {
     font-size: 18px;
 }
 
-header{
+header {
     background-color: rgb(161, 42, 42);
     padding: 2rem 1rem;
     background-image: url(img/principal.jpg);
@@ -12,49 +12,49 @@ header{
 .ancho {
     width: 1170px;
     margin: 0 auto;
-  
+
 }
 
-.menu :hover{
-    background-color:  #C0BCBC;
+.menu :hover {
+    background-color: #C0BCBC;
     cursor: pointer;
     transition: box-shadow 0.3s aease;
     text-align: center;
 }
 
-.menu{
+.menu {
     background-color: transparent;
     text-align: right;
     width: 90%;
     font-size: 22px;
 }
 
-.border{
+.border {
     border: white 2px solid;
 }
 
-.menu li{
+.menu li {
     float: left;
 }
 
-.menu a{
+.menu a {
     color: white;
     background-color: rgb(161, 42, 42);
 }
 
-form{
+form {
     color: black;
     display: flex;
     background-color: #C0BCBC;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
-.container-1{
+.container-1 {
     margin: 0 76px;
     flex-direction: column;
     text-align: center;
@@ -63,44 +63,44 @@ form{
     flex-wrap: wrap;
 }
 
-.red{
+.red {
     background-color: rgb(161, 42, 42);
-    text-align: center; 
+    text-align: center;
     font-weight: 700;
     color: white;
     height: 70px;
 }
 
-h3{
+h3 {
     text-align: center;
-    font-weight: 700;
-}  
-
-
-h4{
-    text-align: center;
-    font-weight: 700;
-    color:rgb(161, 42, 42);
-}
-
-span{
     font-weight: 700;
 }
 
-.aline{
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(161, 42, 42);
+}
+
+span {
+    font-weight: 700;
+}
+
+.aline {
     width: 350px;
     height: 250px;
     margin: 0 300px;
     display: block;
 }
 
-.center-1{
+.center-1 {
     display: flex;
     justify-content: center;
-    padding: 35px;  
+    padding: 35px;
 }
 
-.mochilero{
+.mochilero {
     display: flex;
     flex-direction: row;
     background-color: rgb(161, 42, 42);
@@ -112,7 +112,7 @@ span{
     height: 70px;
 }
 
-.black{
+.black {
     background-color: #444;
     text-align: center;
     font-weight: 700;
@@ -120,41 +120,41 @@ span{
     height: 90px;
 }
 
-.rs{
+.rs {
     display: block;
     position: center;
     height: 70px;
 }
 
-.contact{
+.contact {
     background-color: #444;
-    color:white;
+    color: white;
 }
 
-.left{
+.left {
     text-align: left;
 }
 
-.movil{
-    background-color: rgb(161, 42, 42); 
+.movil {
+    background-color: rgb(161, 42, 42);
     height: 50px;
     margin-bottom: -21px;
 }
 
-.movil-1{
-    margin-top: -300px; 
+.movil-1 {
+    margin-top: -300px;
 }
 
-.footer{
+.footer {
     background-color: black;
-    text-align: center; 
+    text-align: center;
     font-weight: 700;
     color: white;
 }
 
 
 
-.aline{
+.aline {
     width: 350px;
     height: 250px;
     margin: 0 auto;
@@ -163,24 +163,60 @@ span{
 
 .box {
     display: flex;
-  }
-  .home-box {
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
 }
+
+.home-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .home-box .box-item {
-  flex: 32.33%;
-  margin-bottom: 35px;
-  margin-top: 0;
-  padding: 5px;
+    flex: 32.33%;
+    margin-bottom: 35px;
+    margin-top: 0;
+    padding: 5px;
 }
+
 .box-item {
-  margin: auto;
-  text-align: center;
+    margin: auto;
+    text-align: center;
 }
+
 .subsection {
-  background: transparent;
-  max-width: 1170px;
-  margin: auto;
+    background: transparent;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/*RESERVAS*/
+
+label {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.container {
+    background-color: white;
+    border: 6px black solid;
+    padding: 52px;
+    margin: 30px auto;
+    border-radius: 32px;
+    width: fit-content;
+}
+
+.boton input:hover {
+
+    box-shadow: 0px 0px 5px white;
+    background-color: red;
+}
+
+
+.input {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
