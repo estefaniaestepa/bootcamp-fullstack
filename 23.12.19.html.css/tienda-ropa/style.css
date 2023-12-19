@@ -14,35 +14,27 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 236px;
+  margin-top: 50px;
 }
 
 .container-2{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 auto;
   align-content: center;
-  margin-top: -1865px;
+  margin-top: -1050px;
 }
 
 .container-3{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 auto;
   align-content: flex-end;
-  margin-top: -1908px;
+  margin-top: -1103px;
   margin-right: 333px;
 }
 
-p{
-
-}
-
 .tshirt img{
-  height: 400px;
   width: 250px;
-  margin-bottom: 50px;
-  margin-top: 70px;
 }
 
