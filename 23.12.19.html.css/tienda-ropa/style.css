@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 50px;
+}
+
+.tshirt{
+
+  margin: 0 auto;
+}
+
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 236px;
+}
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-content: center;
+  margin-top: -1865px;
+}
+
+.container-3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-content: flex-end;
+  margin-top: -1908px;
+  margin-right: 333px;
+}
+
+p{
+
+}
+
+.tshirt img{
+  height: 400px;
+  width: 250px;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
