@@ -12,9 +12,11 @@
   margin: 10px;
   background-color: aqua;
   min-width: 40%;
-}
- */
- .container{
+} */
+
+
+
+.container{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

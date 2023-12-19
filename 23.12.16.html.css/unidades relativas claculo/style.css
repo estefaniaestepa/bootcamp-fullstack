@@ -21,11 +21,12 @@
   font-size: 3cm;/* 3x el size de su elemento padre(container)*/
 }
 
-.calc{
-  height: calc(136px + 10vwl);
+.calc {
+  width: calc(30% + 50px);
 }
 
-#test{
+
+#test {
   background-color: blueviolet;
 }
 
