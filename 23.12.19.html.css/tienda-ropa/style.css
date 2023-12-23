@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 236px;
+  margin-left: 197px;
   margin-top: 50px;
 }
 
@@ -31,7 +31,7 @@ body{
   flex-wrap: wrap;
   align-content: flex-end;
   margin-top: -1103px;
-  margin-right: 333px;
+  margin-right: 167px;
 }
 
 .tshirt img{

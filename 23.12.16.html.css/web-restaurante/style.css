@@ -423,3 +423,84 @@ button.c-red:hover {
   text-align: center;
   font-size: 36px;
 }
+
+/*RESERVAS*/
+
+.container-reservas ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  float: inline-end;
+}
+
+div.acceder #login {
+  display: inline-block;
+  font-size: 18px;
+  padding: 1px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+div.acceder #login-content {
+  display: flex;
+  margin: 0;
+  position: relative;
+  top: 130px;
+  right: -355px;
+  z-index: 999;
+  background-color: white;
+  padding: 21px;
+  height: 349px;
+  width: 908px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+input#user,
+input#pass {
+  background-color: #f1f1f1;
+  padding: 6px 5px;
+  margin-bottom: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: rgb(164, 48, 23);
+  border: 1px solid black;
+  float: left;
+  height: 28px;
+  width: 100px;
+  padding: 0;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 1s;
+}
+
+#submit :hover {
+  background-color: rgb(164, 48, 23);
+}
+
+ol{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7 1fr);
+  padding: 0;
+}
+
+.first-day{
+  grid-column-start: 5;
+}
+
+.day-name{
+  background-color: #eee;
+  font-weight: bold;
+}

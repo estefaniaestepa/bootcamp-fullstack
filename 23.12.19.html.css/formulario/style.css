@@ -62,6 +62,7 @@ p{
 li{
   color: cadetblue;
 }
+
 ul{
   display: flex;
   flex-wrap: wrap;

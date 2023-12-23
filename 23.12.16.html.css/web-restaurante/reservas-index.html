@@ -36,19 +36,29 @@
 </body>
 </div>
 
-<div class="container">
-  <label for="nombre">Personas</label><br />
-  <input type="text" id="nombre" class="input-myform" name="nombre" /><br />
+<div class="acceder">
+    <div id="login-content">
+      <form>
+        <label for="nombre">Personas</label><br />
+        <input type="text" id="nombre" class="input-myform" name="nombre" /><br />
 
-  <label for="hora">Hora</label><br />
-  <input type="text" id="hora" class="input-myform" name="hora"/><br />
+        <label for="hora">Hora</label><br />
+        <input type="text" id="hora" class="input-myform" name="hora" /><br />
 
-  <label for="zona">Zona</label><br />
-  <input type="text" id="zona" class="input-myform" name="zona" /><br />
+        <label for="zona">Zona</label><br />
+        <input type="text" id="zona" class="input-myform" name="zona" /><br />
 
-  <div class="boton">
-  <input class="button" type="submit" onclick="checkForm()" value="Registrar" /><br />
+        <div class="boton">
+          <input class="button" type="submit" onclick="checkForm()" value="Reservar" /><br />
+
+          <p>Si no encuentra disponibilidad, apúntese en la lista de espera. </p>
+
+          <div class="boton">
+            <input class="button" type="submit" onclick="checkForm()" value="Lista de espera" /><br />
+
+          </div>
+        </div>
+    </div>
   </div>
-</div>
 
 </html>
