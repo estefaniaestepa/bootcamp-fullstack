@@ -265,6 +265,7 @@ p {
   display: flex;
   gap: 35px;
   flex-direction: row;
+  margin: 0;
 }
 
 .rrss img {
