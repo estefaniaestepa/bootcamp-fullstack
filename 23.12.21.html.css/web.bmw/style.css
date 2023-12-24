@@ -204,4 +204,7 @@ header {
   padding: 20px;
 }
 
-
+img:hover{
+  transform: scale(1.2);
+  transition: transform .4s;
+}
